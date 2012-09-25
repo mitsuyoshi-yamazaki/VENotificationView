@@ -15,7 +15,7 @@
 		2CCD524B1611964200F76B93 /* VEAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CCD524A1611964200F76B93 /* VEAppDelegate.m */; };
 		2CCD524E1611964200F76B93 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CCD524C1611964200F76B93 /* MainStoryboard_iPhone.storyboard */; };
 		2CCD52511611964200F76B93 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CCD524F1611964200F76B93 /* MainStoryboard_iPad.storyboard */; };
-		2CCD52541611964200F76B93 /* VEViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CCD52531611964200F76B93 /* VEViewController.m */; };
+		2CCD52661611987600F76B93 /* VENotificationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CCD52651611987600F76B93 /* VENotificationViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,8 +31,8 @@
 		2CCD524A1611964200F76B93 /* VEAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VEAppDelegate.m; sourceTree = "<group>"; };
 		2CCD524D1611964200F76B93 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 		2CCD52501611964200F76B93 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
-		2CCD52521611964200F76B93 /* VEViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VEViewController.h; sourceTree = "<group>"; };
-		2CCD52531611964200F76B93 /* VEViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VEViewController.m; sourceTree = "<group>"; };
+		2CCD52641611987600F76B93 /* VENotificationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VENotificationViewController.h; sourceTree = "<group>"; };
+		2CCD52651611987600F76B93 /* VENotificationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VENotificationViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,8 +83,8 @@
 				2CCD524A1611964200F76B93 /* VEAppDelegate.m */,
 				2CCD524C1611964200F76B93 /* MainStoryboard_iPhone.storyboard */,
 				2CCD524F1611964200F76B93 /* MainStoryboard_iPad.storyboard */,
-				2CCD52521611964200F76B93 /* VEViewController.h */,
-				2CCD52531611964200F76B93 /* VEViewController.m */,
+				2CCD52641611987600F76B93 /* VENotificationViewController.h */,
+				2CCD52651611987600F76B93 /* VENotificationViewController.m */,
 				2CCD52411611964200F76B93 /* Supporting Files */,
 			);
 			path = VENotificationView;
@@ -168,7 +168,7 @@
 			files = (
 				2CCD52471611964200F76B93 /* main.m in Sources */,
 				2CCD524B1611964200F76B93 /* VEAppDelegate.m in Sources */,
-				2CCD52541611964200F76B93 /* VEViewController.m in Sources */,
+				2CCD52661611987600F76B93 /* VENotificationViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
