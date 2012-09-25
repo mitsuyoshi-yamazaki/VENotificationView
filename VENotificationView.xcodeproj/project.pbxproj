@@ -1,0 +1,301 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2CCD523B1611964200F76B93 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CCD523A1611964200F76B93 /* UIKit.framework */; };
+		2CCD523D1611964200F76B93 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CCD523C1611964200F76B93 /* Foundation.framework */; };
+		2CCD523F1611964200F76B93 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CCD523E1611964200F76B93 /* CoreGraphics.framework */; };
+		2CCD52451611964200F76B93 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2CCD52431611964200F76B93 /* InfoPlist.strings */; };
+		2CCD52471611964200F76B93 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CCD52461611964200F76B93 /* main.m */; };
+		2CCD524B1611964200F76B93 /* VEAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CCD524A1611964200F76B93 /* VEAppDelegate.m */; };
+		2CCD524E1611964200F76B93 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CCD524C1611964200F76B93 /* MainStoryboard_iPhone.storyboard */; };
+		2CCD52511611964200F76B93 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CCD524F1611964200F76B93 /* MainStoryboard_iPad.storyboard */; };
+		2CCD52541611964200F76B93 /* VEViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CCD52531611964200F76B93 /* VEViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2CCD52361611964200F76B93 /* VENotificationView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VENotificationView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CCD523A1611964200F76B93 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2CCD523C1611964200F76B93 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2CCD523E1611964200F76B93 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2CCD52421611964200F76B93 /* VENotificationView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VENotificationView-Info.plist"; sourceTree = "<group>"; };
+		2CCD52441611964200F76B93 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2CCD52461611964200F76B93 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2CCD52481611964200F76B93 /* VENotificationView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VENotificationView-Prefix.pch"; sourceTree = "<group>"; };
+		2CCD52491611964200F76B93 /* VEAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VEAppDelegate.h; sourceTree = "<group>"; };
+		2CCD524A1611964200F76B93 /* VEAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VEAppDelegate.m; sourceTree = "<group>"; };
+		2CCD524D1611964200F76B93 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		2CCD52501611964200F76B93 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		2CCD52521611964200F76B93 /* VEViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VEViewController.h; sourceTree = "<group>"; };
+		2CCD52531611964200F76B93 /* VEViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VEViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2CCD52331611964200F76B93 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CCD523B1611964200F76B93 /* UIKit.framework in Frameworks */,
+				2CCD523D1611964200F76B93 /* Foundation.framework in Frameworks */,
+				2CCD523F1611964200F76B93 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2CCD522B1611964200F76B93 = {
+			isa = PBXGroup;
+			children = (
+				2CCD52401611964200F76B93 /* VENotificationView */,
+				2CCD52391611964200F76B93 /* Frameworks */,
+				2CCD52371611964200F76B93 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2CCD52371611964200F76B93 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2CCD52361611964200F76B93 /* VENotificationView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2CCD52391611964200F76B93 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2CCD523A1611964200F76B93 /* UIKit.framework */,
+				2CCD523C1611964200F76B93 /* Foundation.framework */,
+				2CCD523E1611964200F76B93 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2CCD52401611964200F76B93 /* VENotificationView */ = {
+			isa = PBXGroup;
+			children = (
+				2CCD52491611964200F76B93 /* VEAppDelegate.h */,
+				2CCD524A1611964200F76B93 /* VEAppDelegate.m */,
+				2CCD524C1611964200F76B93 /* MainStoryboard_iPhone.storyboard */,
+				2CCD524F1611964200F76B93 /* MainStoryboard_iPad.storyboard */,
+				2CCD52521611964200F76B93 /* VEViewController.h */,
+				2CCD52531611964200F76B93 /* VEViewController.m */,
+				2CCD52411611964200F76B93 /* Supporting Files */,
+			);
+			path = VENotificationView;
+			sourceTree = "<group>";
+		};
+		2CCD52411611964200F76B93 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2CCD52421611964200F76B93 /* VENotificationView-Info.plist */,
+				2CCD52431611964200F76B93 /* InfoPlist.strings */,
+				2CCD52461611964200F76B93 /* main.m */,
+				2CCD52481611964200F76B93 /* VENotificationView-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2CCD52351611964200F76B93 /* VENotificationView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2CCD52571611964200F76B93 /* Build configuration list for PBXNativeTarget "VENotificationView" */;
+			buildPhases = (
+				2CCD52321611964200F76B93 /* Sources */,
+				2CCD52331611964200F76B93 /* Frameworks */,
+				2CCD52341611964200F76B93 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VENotificationView;
+			productName = VENotificationView;
+			productReference = 2CCD52361611964200F76B93 /* VENotificationView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2CCD522D1611964200F76B93 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = VE;
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Yamazaki Mitsuyoshi";
+			};
+			buildConfigurationList = 2CCD52301611964200F76B93 /* Build configuration list for PBXProject "VENotificationView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2CCD522B1611964200F76B93;
+			productRefGroup = 2CCD52371611964200F76B93 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2CCD52351611964200F76B93 /* VENotificationView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2CCD52341611964200F76B93 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CCD52451611964200F76B93 /* InfoPlist.strings in Resources */,
+				2CCD524E1611964200F76B93 /* MainStoryboard_iPhone.storyboard in Resources */,
+				2CCD52511611964200F76B93 /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2CCD52321611964200F76B93 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CCD52471611964200F76B93 /* main.m in Sources */,
+				2CCD524B1611964200F76B93 /* VEAppDelegate.m in Sources */,
+				2CCD52541611964200F76B93 /* VEViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2CCD52431611964200F76B93 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2CCD52441611964200F76B93 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2CCD524C1611964200F76B93 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2CCD524D1611964200F76B93 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		2CCD524F1611964200F76B93 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2CCD52501611964200F76B93 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2CCD52551611964200F76B93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2CCD52561611964200F76B93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2CCD52581611964200F76B93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VENotificationView/VENotificationView-Prefix.pch";
+				INFOPLIST_FILE = "VENotificationView/VENotificationView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2CCD52591611964200F76B93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VENotificationView/VENotificationView-Prefix.pch";
+				INFOPLIST_FILE = "VENotificationView/VENotificationView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2CCD52301611964200F76B93 /* Build configuration list for PBXProject "VENotificationView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CCD52551611964200F76B93 /* Debug */,
+				2CCD52561611964200F76B93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2CCD52571611964200F76B93 /* Build configuration list for PBXNativeTarget "VENotificationView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CCD52581611964200F76B93 /* Debug */,
+				2CCD52591611964200F76B93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2CCD522D1611964200F76B93 /* Project object */;
+}
