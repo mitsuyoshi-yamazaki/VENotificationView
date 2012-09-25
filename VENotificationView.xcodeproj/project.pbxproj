@@ -16,6 +16,8 @@
 		2CCD524E1611964200F76B93 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CCD524C1611964200F76B93 /* MainStoryboard_iPhone.storyboard */; };
 		2CCD52511611964200F76B93 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CCD524F1611964200F76B93 /* MainStoryboard_iPad.storyboard */; };
 		2CCD52661611987600F76B93 /* VENotificationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CCD52651611987600F76B93 /* VENotificationViewController.m */; };
+		2CCD526C16119B4000F76B93 /* VENotificationTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CCD526B16119B4000F76B93 /* VENotificationTestViewController.m */; };
+		2CCD52761611AA8500F76B93 /* VENotificationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CCD52751611AA8500F76B93 /* VENotificationView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +35,10 @@
 		2CCD52501611964200F76B93 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
 		2CCD52641611987600F76B93 /* VENotificationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VENotificationViewController.h; sourceTree = "<group>"; };
 		2CCD52651611987600F76B93 /* VENotificationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VENotificationViewController.m; sourceTree = "<group>"; };
+		2CCD526A16119B4000F76B93 /* VENotificationTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VENotificationTestViewController.h; sourceTree = "<group>"; };
+		2CCD526B16119B4000F76B93 /* VENotificationTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VENotificationTestViewController.m; sourceTree = "<group>"; };
+		2CCD52741611AA8500F76B93 /* VENotificationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VENotificationView.h; sourceTree = "<group>"; };
+		2CCD52751611AA8500F76B93 /* VENotificationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VENotificationView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,8 +89,9 @@
 				2CCD524A1611964200F76B93 /* VEAppDelegate.m */,
 				2CCD524C1611964200F76B93 /* MainStoryboard_iPhone.storyboard */,
 				2CCD524F1611964200F76B93 /* MainStoryboard_iPad.storyboard */,
-				2CCD52641611987600F76B93 /* VENotificationViewController.h */,
-				2CCD52651611987600F76B93 /* VENotificationViewController.m */,
+				2CCD52731611AA1900F76B93 /* VENotificationView */,
+				2CCD526A16119B4000F76B93 /* VENotificationTestViewController.h */,
+				2CCD526B16119B4000F76B93 /* VENotificationTestViewController.m */,
 				2CCD52411611964200F76B93 /* Supporting Files */,
 			);
 			path = VENotificationView;
@@ -99,6 +106,17 @@
 				2CCD52481611964200F76B93 /* VENotificationView-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2CCD52731611AA1900F76B93 /* VENotificationView */ = {
+			isa = PBXGroup;
+			children = (
+				2CCD52641611987600F76B93 /* VENotificationViewController.h */,
+				2CCD52651611987600F76B93 /* VENotificationViewController.m */,
+				2CCD52741611AA8500F76B93 /* VENotificationView.h */,
+				2CCD52751611AA8500F76B93 /* VENotificationView.m */,
+			);
+			name = VENotificationView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -169,6 +187,8 @@
 				2CCD52471611964200F76B93 /* main.m in Sources */,
 				2CCD524B1611964200F76B93 /* VEAppDelegate.m in Sources */,
 				2CCD52661611987600F76B93 /* VENotificationViewController.m in Sources */,
+				2CCD526C16119B4000F76B93 /* VENotificationTestViewController.m in Sources */,
+				2CCD52761611AA8500F76B93 /* VENotificationView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

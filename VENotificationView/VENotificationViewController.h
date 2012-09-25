@@ -8,8 +8,17 @@
 
 #import <UIKit/UIKit.h>
 
-@interface VENotificationViewController : UIViewController <UITableViewDataSource, UITableViewDelegate>
+@class VENotificationView;
+
+@interface VENotificationViewController : UIViewController <UITableViewDataSource, UITableViewDelegate> {
+	CGFloat _notificationViewHeight;
+}
 
 @property (nonatomic, strong) UITableView *tableView;
+@property (nonatomic, strong) VENotificationView *notificationView;
+@property (nonatomic, strong) UILabel *notificationLabel;
+
+- (void)setNotificationViewHeight:(CGFloat)height;
+- (void)toggleNotificationView:(BOOL)animated;
 
 @end
